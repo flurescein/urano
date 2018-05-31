@@ -1,0 +1,36 @@
+{
+  "name": "urano",
+  "version": "0.1.0",
+  "description": "A simple but incredibly expandable reactive container.",
+  "main": "./lib/urano.js",
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flurescein/urano.git"
+  },
+  "keywords": [
+    "urano",
+    "reactive",
+    "ui",
+    "container"
+  ],
+  "author": "flurescein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flurescein/urano/issues"
+  },
+  "homepage": "https://github.com/flurescein/urano#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "mocha": "^5.2.0",
+    "rollup": "^0.59.2",
+    "rollup-plugin-babel": "^3.0.4"
+  }
+}
